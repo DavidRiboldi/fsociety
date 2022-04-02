@@ -1454,12 +1454,14 @@ input, select, textarea {
 		.feature-image img {
 			display: block;
 			width: 100%;
+			border-radius: 10px;
 		}
 
 	.bordered-feature-image {
 		display: block;
 		margin: 0 0 1.5em 0;
 		outline: 0;
+		border-radius: 10px;
 	}
 
 		.bordered-feature-image img {
