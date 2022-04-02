@@ -1509,7 +1509,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffe69e;
+		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4) ;
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1579,7 +1579,7 @@ input, select, textarea {
 /* Features */
 
 	#features {
-		background: #ffd991;
+		background: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e) ;
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1603,7 +1603,7 @@ input, select, textarea {
 /* Content */
 
 	#content {
-		background: #f7f7f7 url("images/bg04.png");
+		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4);
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
@@ -1650,9 +1650,9 @@ input, select, textarea {
 
 	#footer {
 		padding: 45px 0 45px 0;
-		text-shadow: 1px 1px 1px white;
-		color: #546b76;
-		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+		text-shadow: 1px 1px 1px rgb(244, 224, 224);
+		color: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e);
+		text-shadow: 1px 1px 0px rgba(227, 207, 207, 0.5);
 	}
 
 		#footer h2 {
