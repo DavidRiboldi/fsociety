@@ -1585,22 +1585,21 @@ input, select, textarea {
 		background: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e) ;
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #a0a8ab;
+		color: rgb(27, 25, 25);
 	}
 
 		#features h2 {
 			font-size: 1.25em;
-			color: #fff;
+			color: #000;
 			margin: 0 0 0.25em 0;
 		}
 
 		#features a {
-			color: #e0e8eb;
+			color: #ce1a00;
 		}
 
 		#features strong {
-			color: #fff;
+			color: #ce1a00;
 		}
 
 /* Content */
@@ -1626,7 +1625,8 @@ input, select, textarea {
 		}
 
 		#content h3 {
-			color: #96a9b5;
+			color: #ce1a00;
+			font: initial;
 			font-size: 1.25em;
 		}
 
