@@ -1656,7 +1656,7 @@ input, select, textarea {
 	#footer {
 		background-color: #f6ca94;
 		padding: 45px 0 45px 0;
-		text-shadow: 1px 1px 1px rgba(227, 207, 207, 0.5));
+		text-shadow: 1px 1px 1px rgba(227, 207, 207, 0.5);
 		color: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e);
 		text-shadow: 1px 1px 0px rgba(227, 207, 207, 0.5);
 	}
