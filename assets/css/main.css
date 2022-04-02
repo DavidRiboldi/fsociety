@@ -1469,11 +1469,10 @@ input, select, textarea {
 
 	.button-large {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: linear-gradient(top, #ed391b, #ce1a00);
 		display: inline-block;
-		background-color: #ed391b;
+		background-color: #eb8d0a;
 		color: #fff;
 		text-decoration: none;
 		font-size: 1.75em;
