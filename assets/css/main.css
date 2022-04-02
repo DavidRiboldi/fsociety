@@ -1513,7 +1513,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4) ;
-		border-bottom: solid 1px #272d30;
+		border-bottom: solid 1px #eb6859;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 	}
 
@@ -1561,8 +1561,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		border-top: solid 1px #222628;
-		box-shadow: inset 0px 1px 0px 0px #3e484a;
+		border-top: solid 2px #eb6859;
+		border-bottom: solid 1px #eb6859;
 		padding: 35px 0 35px 0;
 		color: #fff;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1583,7 +1583,7 @@ input, select, textarea {
 
 	#features {
 		background: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e) ;
-		border-bottom: solid 1px #272e31;
+		border-bottom: solid 1px #eb6859;
 		padding: 45px 0 45px 0;
 		color: rgb(27, 25, 25);
 	}
@@ -1606,7 +1606,7 @@ input, select, textarea {
 
 	#content {
 		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4);
-		border-top: solid 1px #fff;
+		border-top: solid 1px #eb6859;
 		padding: 45px 0 45px 0;
 	}
 
@@ -1639,15 +1639,18 @@ input, select, textarea {
 		}
 
 		#content .quote-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #eb6859;
 		}
 
 		#content .link-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #eb6859;
 		}
 
 		#content .check-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #eb6859;
+		}
+		#content .imgprs {
+			margin-right: 1em;
 		}
 
 /* Footer */
