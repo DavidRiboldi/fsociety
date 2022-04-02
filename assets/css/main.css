@@ -1530,7 +1530,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				color: #fff;
+				color: #000;
 				text-decoration: none;
 			}
 
@@ -1542,7 +1542,7 @@ input, select, textarea {
 		}
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #000;
 				text-decoration: none;
 				font-size: 1.4em;
 				margin-left: 60px;
@@ -1571,6 +1571,7 @@ input, select, textarea {
 		}
 
 		#banner p {
+			color: black;
 			font-size: 2em;
 			font-weight: 200;
 			line-height: 1.25em;
