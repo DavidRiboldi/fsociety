@@ -1895,6 +1895,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
+					background-color: #000;
 					display: block;
 					text-align: center;
 					font-size: 1.2em;
@@ -1942,6 +1943,7 @@ input, select, textarea {
 					}
 
 			#navPanel {
+				background-color: #000;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2001,6 +2003,7 @@ input, select, textarea {
 			}
 
 			body.navPanel-visible #navPanel {
+				background-color: #000;
 				-moz-transform: translateX(0);
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
