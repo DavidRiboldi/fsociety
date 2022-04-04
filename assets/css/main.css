@@ -1713,13 +1713,14 @@ input, select, textarea {
 /* coockie*/	
 	#cookie-popup {
 			position: fixed;
-			z-index: 9999;
-			right: 30px;
-			bottom: 30px;
-			width: 330px;
+			z-index: 1500;
+			right: 550px;
+			bottom: 250px;
+			width: 500px;
 			padding: 20px 30px;
-			box-sizing: border-box;
-			box-shadow: #373d40 ;
+			
+			box-sizing:border-box;
+			 
 			background-color: #081755;
 			color: #eee;
 			border-radius: 10px;
@@ -1727,13 +1728,14 @@ input, select, textarea {
 		  
 		  #cookie-popup p:first-child {
 			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
 			margin: 0;
 			color: #eee;
 		  }
 		  
 		  #cookie-popup p:nth-child(2) {
 			font-family: 'Source Sans Pro', sans-serif;
-			font-size: 14px;
+			font-size: 18px;
 			line-height: 1.4;
 			margin-bottom: 25px;
 			color: #E8A35D;
@@ -1741,7 +1743,7 @@ input, select, textarea {
 		  
 		  #cookie-popup button {
 			width: 100%;
-			font-size: 16px;
+			font-size: 20px;
 			padding: 8px 0;
 			cursor: pointer;
 			font-family: 'Source Sans Pro', sans-serif;
