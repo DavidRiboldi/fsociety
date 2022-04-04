@@ -1567,8 +1567,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		border-top: solid 2px #eb6859;
+		border-top: solid 1px #eb6859;
 		border-bottom: solid 1px #eb6859;
+		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4) ;
 		padding: 35px 0 35px 0;
 		color: #fff;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1589,6 +1590,7 @@ input, select, textarea {
 
 	#features {
 		background: linear-gradient( #ffe6b4 , #ffe9b3,#ffe69e) ;
+		border-top: solid 1px #eb6859;
 		border-bottom: solid 1px #eb6859;
 		padding: 45px 0 45px 0;
 		color: rgb(27, 25, 25);
