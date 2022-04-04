@@ -1514,7 +1514,6 @@ input, select, textarea {
 		position: relative;
 		background: linear-gradient( #ffe69e , #ffe9b3,#ffe6b4) ;
 		border-bottom: solid 1px #eb6859;
-		box-shadow: inset 0px -1px 0px 0px #51575a;
 	}
 
 		#header > .container {
