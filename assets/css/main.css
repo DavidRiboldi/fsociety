@@ -1756,6 +1756,9 @@ input, select, textarea {
 		  }
 		  div.gallery {
 			border: 1px solid #ccc;
+			margin-bottom: 25px;
+			
+			
 			border-radius: 10px;
 		  }
 		  
@@ -1767,7 +1770,7 @@ input, select, textarea {
 		  
 		  div.gallery img {
 			width: 100%;
-			height: auto;
+			height: 150px;
 			border-radius: 10px;
 		  }
 		  
@@ -1778,6 +1781,7 @@ input, select, textarea {
 		  
 		  * {
 			box-sizing:content-box;
+			
 		  }
 		  
 		  .responsive {
