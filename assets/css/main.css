@@ -1538,19 +1538,26 @@ input, select, textarea {
 			right: 0;
 			bottom: 35px;
 			font-weight: 200;
+			background-color: #f6ad697e;
+			border-radius: 30px;
+			padding: 15px;
 		}
 
 			#header nav a {
 				color: #000;
 				text-decoration: none;
 				font-size: 1.4em;
-				margin-left: 60px;
+				margin: 15px;
 				font-weight: 350;
 				outline: 0;
+				padding: 5px;
 			}
 
 				#header nav a:hover {
 					color: #d40000;
+					background-color: #ffe69e;
+					border-radius: 20px;
+					transition: 0.4s;
 				}
 
 		.subpage #header > .container {
