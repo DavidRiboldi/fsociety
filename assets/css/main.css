@@ -1487,7 +1487,6 @@ input, select, textarea {
 		border-radius: 10px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
-		margin-top: 1em;
 	}
 
 		.button-large:hover {
@@ -1583,7 +1582,7 @@ input, select, textarea {
 			color: black;
 			font-weight: 300;
 			line-height: 1.25em;
-			margin-bottom: auto;
+			margin-bottom: 1em;
 		}
 
 /* Features */
@@ -1639,7 +1638,13 @@ input, select, textarea {
 		}
 
 		#content a {
-			color: #ED391B;
+			text-decoration: none;
+			color: #6c8dd2;
+		}
+
+		#content a:hover{
+			color: #eb6859;
+			transition: 0.2s;
 		}
 
 		#content header {
@@ -1659,6 +1664,14 @@ input, select, textarea {
 		}
 		#content .imgprs {
 			margin-right: 1em;
+		}
+
+		.numerone {
+			margin-top: 18px; 
+			margin-bottom: 18px; 
+			font-family: Trebuchet MS;
+			font-size:xx-large;
+			color: #6c8dd2;
 		}
 
 /* Footer */
@@ -2139,3 +2152,5 @@ input, select, textarea {
 		
 
 	}
+
+/*  David */
