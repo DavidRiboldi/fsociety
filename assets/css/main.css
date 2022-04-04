@@ -1710,17 +1710,19 @@ input, select, textarea {
 			color:rgb(130, 100, 0);
 		}
 	
-/* coockie*/	
+/* cookies*/	
+
 	#cookie-popup {
 			position: fixed;
+			top: 300px;
+    		left: 0;
+   		 	right: 0;
+   			width: 500px;
+    		margin: 0 auto;
 			z-index: 1500;
-			right: 550px;
-			bottom: 250px;
 			width: 500px;
 			padding: 20px 30px;
-			
-			box-sizing:border-box;
-			 
+			box-sizing:border-box;	 
 			background-color: #081755;
 			color: #eee;
 			border-radius: 10px;
