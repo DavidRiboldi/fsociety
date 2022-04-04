@@ -1709,6 +1709,47 @@ input, select, textarea {
 		#copyright a {
 			color:rgb(130, 100, 0);
 		}
+	
+/* coockie*/	
+	#cookie-popup {
+			position: fixed;
+			z-index: 9999;
+			right: 30px;
+			bottom: 30px;
+			width: 330px;
+			padding: 20px 30px;
+			box-sizing: border-box;
+			box-shadow: #373d40 ;
+			background-color: #081755;
+			color: #eee;
+			border-radius: 10px;
+		  }
+		  
+		  #cookie-popup p:first-child {
+			font-family: 'Poppins', sans-serif;
+			margin: 0;
+			color: #eee;
+		  }
+		  
+		  #cookie-popup p:nth-child(2) {
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 14px;
+			line-height: 1.4;
+			margin-bottom: 25px;
+			color: #E8A35D;
+		  }
+		  
+		  #cookie-popup button {
+			width: 100%;
+			font-size: 16px;
+			padding: 8px 0;
+			cursor: pointer;
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #E8A35D;
+			background-color: rgb(7, 18, 78);
+			border: 4px solid #E8A35D;
+			border-radius: 10px;
+		  }
 
 /* Large */
 
@@ -2033,5 +2074,6 @@ input, select, textarea {
 			#copyright {
 				padding: 20px 30px;
 			}
+		
 
 	}
