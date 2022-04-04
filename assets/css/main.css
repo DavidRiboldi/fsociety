@@ -1770,15 +1770,15 @@ input, select, textarea {
 		  div.gallery {
 			border: 1px solid #ccc;
 			margin-bottom: 25px;
-			
-			
+			margin-left: 10px;	
 			border-radius: 10px;
 		  }
 		  
 		  div.gallery:hover {
 			border: 1px solid #777;
 			border-radius: 10px;
-			transform: scale(1.5);
+			transform: scale(1.2);
+			transition: 0.2s;
 		  }
 		  
 		  div.gallery img {
