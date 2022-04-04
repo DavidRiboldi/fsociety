@@ -1638,7 +1638,13 @@ input, select, textarea {
 		}
 
 		#content a {
-			color: #ED391B;
+			text-decoration: none;
+			color: #6c8dd2;
+		}
+
+		#content a:hover{
+			color: #eb6859;
+			transition: 0.2s;
 		}
 
 		#content header {
