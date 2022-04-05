@@ -1770,6 +1770,11 @@ section:last-child,
 	color: #6c8dd2;
 }
 
+.card:hover {
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
 /* Footer */
 
 #footer {
