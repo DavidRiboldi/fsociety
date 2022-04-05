@@ -1648,10 +1648,10 @@ section:last-child,
 }
 
 #header nav a:hover {
-	color: #d40000;
+	color: #6c8dd2;
 	background-color: #ffe69e;
 	border-radius: 20px;
-	transition: 0.4s;
+	transition: 0.2s;
 }
 
 .subpage #header>.container {
@@ -1867,6 +1867,18 @@ section:last-child,
 	background-color: rgb(7, 18, 78);
 	border: 4px solid #E8A35D;
 	border-radius: 10px;
+}
+
+#cookie-popup button:hover {
+	color: rgb(7, 18, 78);
+	background-color: #E8A35D;
+	transition: 0.15s;
+}
+
+#cookie-popup button:active {
+	color: #E8A35D;
+	background-color: rgb(7, 18, 78);
+	transition: 0s;
 }
 
 div.gallery {
