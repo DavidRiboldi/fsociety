@@ -1622,7 +1622,7 @@ section:last-child,
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.button-large:hover {
+.button-larger:hover {
 	background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
 	background-image: -webkit-linear-gradient(top, #fd492b, #de2a10);
 	background-image: -ms-linear-gradient(top, #fd492b, #de2a10);
@@ -1631,7 +1631,7 @@ section:last-child,
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
-.button-large:active {
+.button-larger:active {
 	background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
 	background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
 	background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
@@ -1673,20 +1673,24 @@ section:last-child,
 	background-color: #f6ad697e;
 	border-radius: 30px;
 	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #header nav a {
-	color: #000;
+	color: #6c8dd2;
 	text-decoration: none;
 	font-size: 1.4em;
-	margin: 15px;
-	font-weight: 350;
+	margin: 10px;
+	font-weight: 400;
 	outline: 0;
 	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #header nav a:hover {
-	color: #6c8dd2;
+	color: #b5179e;
 	background-color: #ffe69e;
 	border-radius: 20px;
 	transition: 0.2s;
@@ -1765,8 +1769,8 @@ section:last-child,
 }
 
 #content h3 {
-	color: red;
-	font-family: sans-serif;
+	color: #6c8dd2;
+	font-family: sans-serif, inherit;
 	font-size: 1.25em;
 }
 
@@ -1812,7 +1816,7 @@ section:last-child,
 	margin-bottom: 18px;
 	font-family: Trebuchet MS;
 	font-size: xx-large;
-	color: #6c8dd2;
+	color: #5448c8;
 }
 
 .card:hover {
@@ -2353,16 +2357,9 @@ div.desc {
 	font-weight: 300;
 	font-size: 26px;
 	text-transform: uppercase;
-}
-
-.form-inner h3:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -6px;
-	height: 2px;
-	width: 60px;
-	background: #1762EE;
+	text-align: center;
+	border-bottom: 2px solid rgba(255, 255, 255, .6);
+	padding-bottom: 10px;
 }
 
 .form-inner label {
@@ -2424,7 +2421,7 @@ div.desc {
 	box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
 	transform: rotate(45deg);
 }
-.form-inner input[type="submit"] {
+.form-inner input[type="button"] {
 	background: #1762EE;
 }
 h2.reg {
