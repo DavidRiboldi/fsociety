@@ -2180,7 +2180,7 @@ div.text-pers:hover {
 	}
 
 	#titleBar .title {
-		background-color: #000;
+		background-color: #9c6644;
 		display: block;
 		text-align: center;
 		font-size: 1.2em;
@@ -2203,7 +2203,7 @@ div.text-pers:hover {
 		top: 6px;
 		left: 6px;
 		color: #fff;
-		background: rgba(255, 255, 255, 0.025);
+		background: #9c6644;
 		box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05), inset 0px -8px 10px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
 		text-shadow: -1px -1px 1px black;
 		width: 49px;
@@ -2224,11 +2224,11 @@ div.text-pers:hover {
 	}
 
 	#titleBar .toggle:active:after {
-		background: rgba(255, 255, 255, 0.05);
+		background: #7f5539;
 	}
 
 	#navPanel {
-		background-color: #000;
+		background-color: #7f5539;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -2249,14 +2249,13 @@ div.text-pers:hover {
 		top: 0;
 		width: 275px;
 		z-index: 10002;
-		background: url("images/bg04.jpg");
 		box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
 		text-shadow: -1px -1px 1px black;
 	}
 
 	#navPanel .link {
 		display: block;
-		color: #fff;
+		color: rgba(255, 255, 255, 0.815);
 		text-decoration: none;
 		font-size: 1.25em;
 		line-height: 2em;
@@ -2265,12 +2264,17 @@ div.text-pers:hover {
 		border-bottom: solid 1px rgba(0, 0, 0, 0.4);
 	}
 
+	#navPanel .link:hover {
+		background-color: #63432d;
+		transition: 0.2s;
+	}
+
 	#navPanel .link:first-child {
 		border-top: 0;
 	}
 
 	#navPanel .link:last-child {
-		border-bottom: 0;
+		border-bottom: 2px solid rgba(34, 34, 34, 0.582);
 	}
 
 	body.navPanel-visible #page-wrapper {
@@ -2288,7 +2292,7 @@ div.text-pers:hover {
 	}
 
 	body.navPanel-visible #navPanel {
-		background-color: #000;
+		background-color: #7f5539;
 		-moz-transform: translateX(0);
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
