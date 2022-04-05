@@ -1728,7 +1728,7 @@ section:last-child,
 
 #content h3 {
 	color: red;
-	font: initial;
+	font-family: sans-serif;
 	font-size: 1.25em;
 }
 
