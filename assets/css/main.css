@@ -1952,7 +1952,7 @@ section:last-child,
 
 div.gallery {
 	position: relative;
-	margin-bottom: 25px;
+	margin-bottom: 55px;
 	margin-left: 10px;
 	border-radius: 10px;
 
@@ -1994,7 +1994,6 @@ div.text-pers {
 	background-color: #f6ad69;
 	text-align: center;
 	color: white;
-	padding: auto;
 	font-size: 16px;
 	border-radius: 10px;
 	transform: scale(1.2);
