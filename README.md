@@ -20,8 +20,6 @@
 - FontAwesome
 - HTML5 Up
 
-
-
 ## Thanks to:
 - [Halcyonic by HTML5 UP]
 	
