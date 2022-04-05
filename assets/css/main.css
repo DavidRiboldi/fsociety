@@ -1601,6 +1601,44 @@ section:last-child,
 	background-color: #ce1a00;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 }
+/* Pulsante LInk Diventa Partner */
+.button-larger {
+	align-content: flex-start;
+	background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
+	background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
+	background-image: linear-gradient(top, #ed391b, #ce1a00);
+	display: inline-block;
+	background-color: red;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	height: 2em;
+	line-height: 2.125em;
+	font-weight: 300;
+	padding: 0 5px;
+	outline: 0;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button-large:hover {
+	background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
+	background-image: -webkit-linear-gradient(top, #fd492b, #de2a10);
+	background-image: -ms-linear-gradient(top, #fd492b, #de2a10);
+	background-image: linear-gradient(top, #fd492b, #de2a10);
+	background-color: #fd492b;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button-large:active {
+	background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
+	background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
+	background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
+	background-image: linear-gradient(top, #ce1a00, #ed391b);
+	background-color: #ce1a00;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+}
 
 /* Header */
 
@@ -1648,10 +1686,10 @@ section:last-child,
 }
 
 #header nav a:hover {
-	color: #d40000;
+	color: #6c8dd2;
 	background-color: #ffe69e;
 	border-radius: 20px;
-	transition: 0.4s;
+	transition: 0.2s;
 }
 
 .subpage #header>.container {
@@ -1728,13 +1766,20 @@ section:last-child,
 
 #content h3 {
 	color: red;
-	font: initial;
+	font-family: sans-serif;
 	font-size: 1.25em;
 }
 
 #content a {
 	text-decoration: none;
 	color: #6c8dd2;
+}
+#content a.button-larger {
+	color: #fff;
+}
+#content a.button-larger:hover {
+	color: #000;
+	transition: 0.2s;
 }
 
 #content a:hover {
@@ -1867,6 +1912,18 @@ section:last-child,
 	background-color: rgb(7, 18, 78);
 	border: 4px solid #E8A35D;
 	border-radius: 10px;
+}
+
+#cookie-popup button:hover {
+	color: rgb(7, 18, 78);
+	background-color: #E8A35D;
+	transition: 0.15s;
+}
+
+#cookie-popup button:active {
+	color: #E8A35D;
+	background-color: rgb(7, 18, 78);
+	transition: 0s;
 }
 
 div.gallery {
