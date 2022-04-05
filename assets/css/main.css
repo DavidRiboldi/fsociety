@@ -1592,6 +1592,8 @@ section:last-child,
 	background-image: linear-gradient(top, #fd492b, #de2a10);
 	background-color: #fd492b;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+	transform: scale(1.3);
+	transition: 0.3s;
 }
 
 .button-large:active {
@@ -1601,6 +1603,7 @@ section:last-child,
 	background-image: linear-gradient(top, #ce1a00, #ed391b);
 	background-color: #ce1a00;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+	transform: rotate(180deg);
 }
 /* Pulsante LInk Diventa Partner */
 .button-larger {
@@ -1631,6 +1634,8 @@ section:last-child,
 	background-image: linear-gradient(top, #fd492b, #de2a10);
 	background-color: #fd492b;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+	transform: scale(1.1);
+	transition: 0.3s;
 }
 
 .button-larger:active {
