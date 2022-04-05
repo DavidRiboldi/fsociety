@@ -2478,6 +2478,14 @@ div.text-pers:hover {
 .form-inner input[type="button"] {
 	background: #1762EE;
 }
+.form-inner input[type="button"]:hover {
+	transform: scale(1.08);
+	transition: 0.1s;
+}
+.form-inner input[type="button"]:active {
+	background-color: #1869ff;
+	transition: 0s;
+}
 h2.reg {
 	text-align: center;
 }
