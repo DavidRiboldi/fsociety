@@ -586,5 +586,8 @@
 	$("#cookie-popup button").click(function() {
 		$("#cookie-popup").fadeOut();
 	  });
+	$("#cookie-popup button").click(function() {
+		$(".bgpopup").fadeOut();
+	});
 
 })(jQuery);

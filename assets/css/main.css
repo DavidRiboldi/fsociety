@@ -1930,6 +1930,14 @@ section:last-child,
 	transition: 0s;
 }
 
+.bgpopup {
+	position: fixed;
+	z-index: 1499;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
 div.gallery {
 	position: relative;
 	margin-bottom: 25px;
