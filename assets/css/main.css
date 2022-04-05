@@ -1727,7 +1727,7 @@ section:last-child,
 }
 
 #content h3 {
-	color: #fff;
+	color: red;
 	font: initial;
 	font-size: 1.25em;
 }
@@ -2362,7 +2362,6 @@ div.desc {
 	box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
 	transform: rotate(45deg);
 }
-
 .form-inner input[type="submit"] {
 	background: #1762EE;
 }
@@ -2371,4 +2370,7 @@ h2.reg {
 }
 p.programmi {
 	text-align: center;
+}
+#content h3.registrazione{
+	color: #ccc;
 }
