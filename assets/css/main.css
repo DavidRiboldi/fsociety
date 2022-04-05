@@ -1552,6 +1552,11 @@ section:last-child,
 	border-radius: 10px;
 }
 
+.feature-image img:hover {
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
 .bordered-feature-image {
 	display: block;
 	margin: 0 0 1.5em 0;
